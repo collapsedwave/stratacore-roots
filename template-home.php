@@ -11,7 +11,7 @@ Template Name: Home Template
 				<h1><?php the_field('hero_title'); ?></h1>
 			<?php endif; ?>
 			<p><?php the_field('hero_copy'); ?></p>
-			<a href="#home-contact" class="btn btn-primary">Contact Us</a>
+			<a href="#home-contact" class="btn btn-primary pull-right">Contact Us</a>
 		</div>
 	</div>
 </div>
@@ -33,7 +33,7 @@ Template Name: Home Template
 	</div>
 </div>
 
-<div class="container-full clearfix home-usp">
+<div class="container-full clearfix text-center home-usp">
 	<div class="container">
 		<div class="col-sm-8 col-sm-offset-2">
 			<h2><?php the_field('proposition_title'); ?></h2>
