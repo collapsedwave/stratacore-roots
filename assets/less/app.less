@@ -63,6 +63,9 @@ body {
         margin: 0 auto;
         width: 100%;
     }
+    h1, h2, h3, h4, h5 {
+      margin-top: 0;
+    }
     h1, h2 {
       font-weight: 700;
     }
@@ -74,10 +77,11 @@ body {
    Header
    ========================================================================== */
 
+.navbar {
+  margin-bottom: 0;
+}
+
 .banner {
-  .navbar {
-    margin-bottom: 0;
-  }
   .navbar-brand {
     height: inherit;
   }
@@ -148,8 +152,14 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Media Queries
    ========================================================================== */
 
-@media (min-width: @screen-sm-min) { }
+@media (max-width: @screen-sm-min) {
+  .home-hero-content {
+    p {
+      width: 100%;
+    }
+  }
+}
 
-@media (min-width: @screen-md-min) { }
+@media (max-width: @screen-md-min) { }
 
-@media (min-width: @screen-lg-min) { }
+@media (max-width: @screen-lg-min) { }
