@@ -59,16 +59,17 @@
    ========================================================================== */
 
 body {
-    .container-full {
-        margin: 0 auto 40px;
-        width: 100%;
-    }
-    h1, h2, h3, h4, h5 {
-      margin-top: 0;
-    }
-    h1, h2 {
-      font-weight: 700;
-    }
+  overflow-x: hidden;
+  .container-full {
+      margin: 0 auto 40px;
+      width: 100%;
+  }
+  h1, h2, h3, h4, h5 {
+    margin-top: 0;
+  }
+  h1, h2 {
+    font-weight: 700;
+  }
 }
 
 
@@ -84,6 +85,9 @@ body {
 .banner {
   .navbar-brand {
     height: inherit;
+    img {
+      max-width: 100%;
+    }
   }
 }
 
@@ -162,6 +166,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   .home-hero-content {
     p {
       width: 100%;
+    }
+  }
+  .home-services {
+    .col-sm-4 {
+      margin-bottom: 40px;
     }
   }
 }

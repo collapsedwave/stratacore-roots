@@ -6,7 +6,7 @@ Template Name: Home Template
 
 <div class="container-full clearfix home-hero">
 	<div class="container col-sm-12 row">
-		<div class="col-sm-8 col-sm-offset-2 home-hero-content">
+		<div class="col-sm-8 col-sm-offset-2 clearfix home-hero-content">
 			<?php if( get_field('hero_title') ): ?>
 				<h1><?php the_field('hero_title'); ?></h1>
 			<?php endif; ?>
