@@ -28,7 +28,10 @@ var Roots = {
   // Home page
   home: {
     init: function() {
-      // JavaScript to be fired on the home page
+      $("a[href='#home-contact']").click(function() {
+        $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+        return false;
+      });
     }
   },
   // About us page, note the change from about-us to about_us.

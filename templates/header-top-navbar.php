@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><img src="<?php echo site_url(); ?>/wp-content/themes/roots/assets/img/logo.png"></a>
+      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><img src="<?php echo site_url(); ?>/wp-content/themes/stratacore-roots/assets/img/logo.png"></a>
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
