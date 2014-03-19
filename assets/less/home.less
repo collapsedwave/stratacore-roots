@@ -14,6 +14,11 @@
 			margin-bottom: 40px;
 			font-size: 24px;
 		}
+		a {
+			padding: 10px 40px;
+			font-size: 20px;
+			font-weight: 700;
+		}
 	}
 }
 
@@ -25,7 +30,7 @@
 
 .container-full.home-usp {
 	background-color: @brand-primary;
-	padding: 40px;
+	padding: 60px;
 	color: #fff;
 	p {
 		font-size: 24px;
@@ -36,4 +41,20 @@
 	background-color: @gray-lighter;
 	padding: 40px;
 	margin-bottom: 0;
+	.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+	p {
+		margin-top: 10px;
+	}
 }
