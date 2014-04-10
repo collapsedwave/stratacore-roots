@@ -59,13 +59,9 @@ Template Name: Home Template
 		</div>
 		<div class="col-sm-6 contact-info">
 			<h2><i class="fa fa-envelope"></i>&nbsp;&nbsp;Contact Us</h2>
-			(212) 243-1008<br>
+			<?php the_field('phone_number'); ?><br>
 			<a href="mailto:contact@stratacore.net">contact@stratacore.net</a><br>
-			<p>
-				25 Broadway<br>
-				5th Floor<br>
-				New York, NY, 10025
-			</p>
+			<p><?php the_field('address'); ?></p>
 		</div>
 	</div>
 </div>
