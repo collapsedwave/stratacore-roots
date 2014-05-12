@@ -33,6 +33,7 @@ Template Name: Home Template
 	</div>
 	<div class="container">
 		<div class="col-sm-8">
+			h3><i class="fa fa-briefcase"></i>&nbsp;&nbsp;<?php the_field('service_title_4'); ?></h3>
 			<p><?php the_field('service_copy_4'); ?></p>
 		</div>
 		<div class="col-sm-4">
