@@ -36,7 +36,7 @@ Template Name: Home Template
 			<p><?php the_field('service_copy_4'); ?></p>
 		</div>
 		<div class="col-sm-4">
-			<img src="<?php echo site_url(); ?>/wp-content/themes/stratacore-roots/assets/img/test.jpg">
+			<img src="<?php echo site_url(); ?>/wp-content/themes/stratacore-roots/assets/img/money.jpg">
 		</div>
 	</div>
 </div>
