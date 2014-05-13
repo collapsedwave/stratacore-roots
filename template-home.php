@@ -17,6 +17,15 @@ Template Name: Home Template
 </div>
 
 <div class="container-full clearfix home-services">
+	<div class="container service-intro">
+		<div class="col-sm-8">
+			<h3><i class="fa fa-briefcase"></i>&nbsp;&nbsp;<?php the_field('service_title_4'); ?></h3>
+			<p><?php the_field('service_copy_4'); ?></p>
+		</div>
+		<div class="col-sm-4">
+			<img src="<?php echo site_url(); ?>/wp-content/themes/stratacore-roots/assets/img/handshake.png">
+		</div>
+	</div>
 	<div class="container">
 		<div class="col-sm-4">
 			<h3><i class="fa fa-ticket"></i>&nbsp;&nbsp;<?php the_field('service_title_1'); ?></h3>
@@ -29,15 +38,6 @@ Template Name: Home Template
 		<div class="col-sm-4">
 			<h3><i class="fa fa-cogs"></i>&nbsp;&nbsp;<?php the_field('service_title_3'); ?></h3>
 			<p><?php the_field('service_copy_3'); ?></p>
-		</div>
-	</div>
-	<div class="container">
-		<div class="col-sm-8">
-			<h3><i class="fa fa-briefcase"></i>&nbsp;&nbsp;<?php the_field('service_title_4'); ?></h3>
-			<p><?php the_field('service_copy_4'); ?></p>
-		</div>
-		<div class="col-sm-4">
-			<img src="<?php echo site_url(); ?>/wp-content/themes/stratacore-roots/assets/img/money.jpg">
 		</div>
 	</div>
 </div>

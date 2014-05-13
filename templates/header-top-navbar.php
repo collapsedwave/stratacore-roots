@@ -17,9 +17,9 @@
         endif;
       ?>
       <ul class="pull-right strata-social">
-        <li><a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-        <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-        <li><a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+        <li><a href="http://www.linkedin.com/company/3717089" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+        <li><a href="http://www.facebook.com/StrataCoreNYC" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+        <li><a href="http://twitter.com/stratacorenyc" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
       </ul>
     </nav>
   </div>
