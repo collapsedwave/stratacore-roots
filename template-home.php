@@ -18,11 +18,11 @@ Template Name: Home Template
 
 <div class="container-full clearfix home-services">
 	<div class="container service-intro">
-		<div class="col-sm-8">
+		<div class="col-md-8">
 			<h3><i class="fa fa-briefcase"></i>&nbsp;&nbsp;<?php the_field('service_title_4'); ?></h3>
 			<p><?php the_field('service_copy_4'); ?></p>
 		</div>
-		<div class="col-sm-4">
+		<div class="col-md-4 hidden-sm hidden-xs">
 			<img src="<?php echo site_url(); ?>/wp-content/themes/stratacore-roots/assets/img/handshake.png">
 		</div>
 	</div>
